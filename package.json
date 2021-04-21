@@ -1,0 +1,14 @@
+{
+  "name": "algo-bot",
+  "version": "1.0.0",
+  "description": "simple algo bot keep balance and measure latency of top symbols by volume",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "spirin.vladimir@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ws": "^7.4.4"
+  }
+}
