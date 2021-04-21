@@ -1,1 +1,1 @@
-![alt text](https://github.com/spirinvladimir/algo-bot/blob/master/preview.png?raw=true)
+![alt text](https://github.com/spirinvladimir/algo-bot/blob/main/preview.png?raw=true)
