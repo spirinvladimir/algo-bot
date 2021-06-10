@@ -19,7 +19,6 @@ min_mean_max = t => {
     sum += t
     count++
 }
-a = 1
 latency_events = () => setTimeout(() => {
     if (count != 0) {
         console.log('latency in seconds by events per minute:', min, 'min',  Math.round(sum / count), 'mean', max, 'max')
@@ -27,7 +26,6 @@ latency_events = () => setTimeout(() => {
         max = -Infinity
         sum = 0
         count = 0
-        a++
     }
     latency_events()
 }, m1)
